@@ -1,7 +1,8 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import cloudflare from "@astrojs/cloudflare";
-
+//import deno from '@astrojs/deno';
+// import cloudflare from "@astrojs/cloudflare";
+import vercel from "@astrojs/vercel/serverless";
 const LIVE_URL = "https://ainus64.github.io/";
 
 /*
@@ -19,12 +20,15 @@ if (isBuild) {
 */
 
 let BASE_URL = LIVE_URL;
+cd 
+
+
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ainus64.github.io',
-  base: BASE_URL,
+  //site: 'https://ainus64.github.io',
+  //base: BASE_URL,
   output: 'server',
-  adapter: cloudflare({ mode: 'directory' }),
+  adapter: vercel(),
   integrations: [starlight({
     title: 'Guia de Desarrollo Web',
     social: {
@@ -47,6 +51,5 @@ export default defineConfig({
         directory: 'astro'
       }
     }]
-  })],
-  adapter: cloudflare()
+  })]
 });
