@@ -1,5 +1,5 @@
 ---
-title: Example Guide
+title: Guía rápida de Comandos
 description: A guide in my new Starlight docs site.
 ---
 

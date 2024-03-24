@@ -5,21 +5,22 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Guia de Desarrollo Web',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/ainus64/guia-de-desarrollo-web',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'git',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Comandos de Git', link: '/git/commands' },
+						{ label: 'Conventional Commits', link: '/git/commits' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Astro',
+					autogenerate: { directory: 'astro' },
 				},
 			],
 		}),
