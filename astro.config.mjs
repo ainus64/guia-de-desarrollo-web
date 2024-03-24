@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://ainus64.github.io',
+	base: 'guia-de-desarrollo-web',
 	integrations: [
 		starlight({
 			title: 'Guia de Desarrollo Web',
