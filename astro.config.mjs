@@ -1,10 +1,14 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+const LIVE_URL ="https://ainus64.github.io/";
+
+const BASE_URL = LIVE_URL;
+
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://ainus64.github.io',
-	base: 'guia-de-desarrollo-web',
+	base: BASE_URL,
 	integrations: [
 		starlight({
 			title: 'Guia de Desarrollo Web',
