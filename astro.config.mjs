@@ -1,6 +1,9 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import cloudflare from "@astrojs/cloudflare";
+
+const LIVE_URL = "https://ainus64.github.io/";
+
 /*
 const SERVER_PORT = 4321;
 const LOCALHOST_URL = "";
