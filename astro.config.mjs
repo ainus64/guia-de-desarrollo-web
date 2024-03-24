@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import cloudflare from "@astrojs/cloudflare";
-
+/*
 const SERVER_PORT = 4321;
 const LOCALHOST_URL = "";
 const LIVE_URL = "https://ainus64.github.io/";
@@ -13,7 +13,9 @@ let BASE_URL = LOCALHOST_URL;
 if (isBuild) {
   BASE_URL = LIVE_URL;
 }
+*/
 
+let BASE_URL = LIVE_URL;
 // https://astro.build/config
 export default defineConfig({
   site: 'https://ainus64.github.io',
