@@ -17,7 +17,4 @@ Suele ser habitual por buenas prácticas utilizar un scope para indicar que camb
 > Ejemplo:
     fix(index.html): Se ha corregido un fallo.
 
-
-## Further reading
-
 - Leer más sobre [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
