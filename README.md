@@ -3,7 +3,7 @@
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
 
-<button name="button" onclick="https://guia-de-desarrollo-web.pages.dev/">Abrir Página web en Cloudflare</button>
+[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)](https://guia-de-desarrollo-web.pages.dev/)
 
 
 
