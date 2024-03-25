@@ -3,9 +3,21 @@ title: Conventional Commits
 description: A guide in my new Starlight docs site.
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+Etiquetas habituales en los commits.
+
+* feat:
+
+* fix:
+
+* BREAKING-CHANGES:
+  
+Suele ser habitual por buenas prácticas utilizar un scope para indicar que cambio afecta.
+> Sintaxis: fix(scope): Description
+
+> Ejemplo:
+    fix(index.html): Se ha corregido un fallo.
+
 
 ## Further reading
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+- Leer más sobre [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
