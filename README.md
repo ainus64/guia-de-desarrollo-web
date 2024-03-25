@@ -5,9 +5,7 @@ Esta página está en constante construcción, se irá añadiendo y modificando 
 
 ## Web
 
-Consulta la Guia web en:
-
-[![Guia de Desarrollo Web con Astro](https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/documentation.svg)](https://guia-de-desarrollo-web.vercel.app/)
+* [![Guia de Desarrollo Web con Astro](https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/documentation.svg)](https://guia-de-desarrollo-web.vercel.app/)
 
 
 ## Licencia
@@ -18,5 +16,4 @@ Este proyecto actualmente no posee una Licencia de uso, lo que significa que aun
 
 #
 
-[![Built with Starlight](https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/documentation.svg)](https://guia-de-desarrollo-web.vercel.app/)
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
