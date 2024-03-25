@@ -7,7 +7,7 @@ Esta página está en constante construcción, se irá añadiendo y modificando 
 
 Consulta la Guia web en:
 
- [![Get it on SERVICE](https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/documentation-compact.svg)](https://guia-de-desarrollo-web.vercel.app/)
+[![web de la Guia de Desarrollo](https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/documentation.svg)](https://guia-de-desarrollo-web.vercel.app/)
 
 
 ## Licencia
