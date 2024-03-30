@@ -12,7 +12,7 @@ description: A guide in my new Starlight docs site.
 | Undefined | Clases |
 | Null | |
 
-## Aritmeticos
+## Aritméticos
 
 Ejemplo:
 
@@ -39,7 +39,7 @@ console.log(++a); // <-- va a sumar 1 a la variable 'a' que es igual a 5 y luego
 ```
 let a = 5;
 
-console.log(a++); // <-- va a mostrarr el valor de la variable 'a' que es igual a 5 y luego suma 1.
+console.log(a++); // <-- va a mostrar el valor de la variable 'a' que es igual a 5 y luego suma 1.
 ```
 
 #### Operador de decremento
@@ -58,8 +58,8 @@ Hay algunos tipos más complejos, que proporcionan atajos útiles para mantener 
 
 | Operador | Nombre | Propósito | Ejemplo | Atajo de |
 |:----:|:----:|:----:|:----:|:----:|
-| += | Adición asignación | Suma el valor de la derecha al valor de la variable de la izquierda y returna el nuevo valor | x = 3; x += 4;| x = 3; x = x + 4; |
-| -= | Resta adignación | Resta el valor de la derecha, del valor de la variable de la izquierda y retorna el nuevo valor. | x = 6; x -= 3; | x = 6; x = x - 3; |
+| += | Adición asignación | Suma el valor de la derecha al valor de la variable de la izquierda y retorna el nuevo valor | x = 3; x += 4;| x = 3; x = x + 4; |
+| -= | Resta asignación | Resta el valor de la derecha, del valor de la variable de la izquierda y retorna el nuevo valor. | x = 6; x -= 3; | x = 6; x = x - 3; |
 | *= | Multiplicación asignación | Multiplica el valor de la variable en la izquierda por el valor en la derecha y retorna el nuevo valor. | x = 2; x *= 3; | x = 2; x = x * 3; |
 | /= | División asignación | Divide el valor de la variable en la izquierda por el valor de la derecha y retorna el nuevo valor. | x = 10; x /= 5; | x = 10; x = x / 5; |
 

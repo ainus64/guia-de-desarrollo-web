@@ -28,7 +28,7 @@ El versionado se divide en tres bloques:
 
 ---
 
-Adicionalmente está permitido (y es muy común) añadir al bloque PATCH información adicional indicando si son versiones previas a un nuevo lanzamiento (alpha, beta, next, rc, ...) y el número de la compilación. Esta información adicional debe ir en el bloque PATCH precedido por un guión.
+Adicionalmente está permitido (y es muy común) añadir al bloque PATCH información adicional indicando si son versiones previas a un nuevo lanzamiento (alpha, beta, next, rc, ...) y el número de la compilación. Esta información adicional debe ir en el bloque PATCH precedido por un guion.
 
     12.2.0-alpha.0
     // Aquí "alpha" indica el estado de la compilación y ".0" indica el número de compilación
@@ -47,7 +47,7 @@ Suele ser habitual por buenas prácticas utilizar un scope para indicar que camb
     // Ejemplo de un Commit:
     fix(index.html): Se ha corregido un fallo.
 
-    Se han corregido ciertos fallos sintáticos en el <body> ...
+    Se han corregido ciertos fallos sintácticos en el <body> ...
 
 ### Tipos de Commits
 Etiquetas habituales en los commits.
@@ -56,7 +56,7 @@ Etiquetas habituales en los commits.
 |-----------|-----------------------------------------------|
 | fix       | Indica que el commit es un parche de un error. Está relacionado con la versión **PATCH** del proyecto.|
 | feat      | Cambios nuevos que añaden funcionalidad. está relacionado con la versión **MINOR** del proyecto.   |
-| BREAKING CHANGES | Se añade en el Footer de un commit o el caracter ! despues del tipo. <Ejemplo: **feat!(scope): Descripción**> . Indica que se rompe la compatibilidad de la versión actual y está relacionada con la versión **MAJOR**,   |
+| BREAKING CHANGES | Se añade en el Footer de un commit o el carácter ! después del tipo. <Ejemplo: **feat!(scope): Descripción**> . Indica que se rompe la compatibilidad de la versión actual y está relacionada con la versión **MAJOR**,   |
 | chore | tareas rutinarias que no sean específicas de una feature o un error como por ejemplo añadir contenido al fichero .gitignore o instalar una dependencia.|
 | test | si añadimos o arreglamos tests. |
 | docs | cuando solo se modifica documentación |

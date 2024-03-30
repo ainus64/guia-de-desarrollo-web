@@ -8,7 +8,7 @@ Less concerned with telling a story or addressing a specific use case, they shou
 
 ## Instalación de Bun
 
-En Linux abre una terminal y esbribe:
+En Linux abre una terminal y escribe:
 
 ```
 curl -fsSL https://bun.sh/install | bash

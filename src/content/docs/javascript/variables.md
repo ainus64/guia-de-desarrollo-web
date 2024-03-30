@@ -4,7 +4,7 @@ description: A guide in my new Starlight docs site.
 ---
 ## Tipos de Variables
 
-Para declarar variables usaremos let, tambien existe la palbra reservada const para asignar valores constantes.
+Para declarar variables usaremos let, también existe la palabra reservada const para asignar valores constantes.
 
 ### var (Deprecated)
 ```
@@ -26,7 +26,7 @@ Hay 3 tipos de regla para declarar variables
 
 | Tipo | Descripción |
 |---|---|
-| camelCase | Comienza la primera palabra con minusculas, y la siguiente palabra con mayúsculas. |
+| camelCase | Comienza la primera palabra con minúsculas, y la siguiente palabra con mayúsculas. |
 | UpperCamelCase | Comienza la primera letra de cada palabra en Mayúsculas. |
 | snake_case | Se separa cada palabra con _ |
 

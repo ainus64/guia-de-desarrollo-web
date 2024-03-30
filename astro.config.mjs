@@ -30,7 +30,7 @@ export default defineConfig({
     },{
       label: 'JavaScript',
       autogenerate: {
-        directory: 'JavaScript'
+        directory: 'javascript'
       }
     },{
       label: 'CSS',

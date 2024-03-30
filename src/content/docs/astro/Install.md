@@ -6,7 +6,7 @@ description: Instalación de Astro Build.
 
 ## Instalación de Astro
 
-En abre una terminal y esbribe:
+En abre una terminal y escribe:
 
 ```
 bun install astro@latest
