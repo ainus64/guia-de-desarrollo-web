@@ -1,5 +1,5 @@
 ---
-title: Package Manager
+title: Node Package Manager
 description: Instalación de Bun Package Manager.
 ---
 

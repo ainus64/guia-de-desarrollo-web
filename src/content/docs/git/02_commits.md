@@ -11,21 +11,19 @@ La Semantic Versioning está ligada a la Conventional Commits para establecer ve
 
 El versionado se divide en tres bloques:
 
-```
-// MAJOR.MINOR.PATCH
-
-Version 2.12.7
-// 2 -> MAJOR
-// 12 -> MINOR
-// 17 -> PATCH
-```
+    MAJOR.MINOR.PATCH
+    
+    Version 2.12.7
+    // 2 -> MAJOR
+    // 12 -> MINOR
+    // 17 -> PATCH
 
 ---
 
 > * **MAJOR**: Número de versión que se incrementa cuando se rompe la compatibilidad de versiones anteriores.
 
 > * **MINOR**: Número de versión que se incrementa cuando se añade funcionalidad y esta es compatible en la versión MAJOR actual.
- 
+
 > * **PATCH**: Número de versión que se incrementa cuando se arreglan errores en la versión MAJOR.MINOR actual.
 
 ---

@@ -12,7 +12,7 @@ export default defineConfig({
       github: 'https://github.com/ainus64/guia-de-desarrollo-web'
     },
     sidebar: [{
-      label: 'git',
+      label: 'Git',
       items: [
       // Each item here is one entry in the navigation menu.
       {
@@ -26,6 +26,16 @@ export default defineConfig({
       label: 'Astro',
       autogenerate: {
         directory: 'astro'
+      }
+    },{
+      label: 'JavaScript',
+      autogenerate: {
+        directory: 'JavaScript'
+      }
+    },{
+      label: 'CSS',
+      autogenerate: {
+        directory: 'CSS'
       }
     }]
   }), ],
