@@ -16,7 +16,6 @@ export default defineConfig({
     sidebar: [{
       label: 'Git',
       items: [
-      // Each item here is one entry in the navigation menu.
       {
         label: 'Comandos de Git',
         link: '/git/commands'
@@ -24,7 +23,17 @@ export default defineConfig({
         label: 'Conventional Commits',
         link: '/git/commits'
       }]
-    }, {
+      },{ 
+      label: 'JavaSCRIPT',
+      items: [
+      {
+        label: 'Comandos de Git',
+        link: '/git/commands'
+      }, {
+        label: 'Conventional Commits',
+        link: '/git/commits'
+      }]
+      }, {
       label: 'Astro',
       autogenerate: {
         directory: 'astro'
