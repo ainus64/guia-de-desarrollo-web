@@ -23,16 +23,6 @@ export default defineConfig({
         label: 'Conventional Commits',
         link: '/git/commits'
       }]
-      },{ 
-      label: 'JavaSCRIPT',
-      items: [
-      {
-        label: 'Comandos de Git',
-        link: '/git/commands'
-      }, {
-        label: 'Conventional Commits',
-        link: '/git/commits'
-      }]
       }, {
       label: 'Astro',
       autogenerate: {
