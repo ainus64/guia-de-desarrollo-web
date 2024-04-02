@@ -12,7 +12,7 @@ description: A guide in my new Starlight docs site.
 | Undefined | Clases |
 | Null | |
 
-## Aritméticos
+### Aritméticos
 
 Ejemplo:
 
@@ -28,7 +28,7 @@ console.log(a % b); // Resto o Módulo (El resultado sobrante de una división)
 console.log(a ** b); // potencia
 ```
 
-#### Operador de incremento
+### Operador de incremento
 
 ```
 let a = 5;
@@ -42,7 +42,7 @@ let a = 5;
 console.log(a++); // <-- va a mostrar el valor de la variable 'a' que es igual a 5 y luego suma 1.
 ```
 
-#### Operador de decremento
+### Operador de decremento
 
 Funciona igual que el operador de Incremento pero reduciendo su valor en 1
 
@@ -52,7 +52,7 @@ let a = 5;
 console.log(--a);
 ```
 
-## Operadores de asignación
+### Operadores de asignación
 
 Hay algunos tipos más complejos, que proporcionan atajos útiles para mantener tu código más ordenado y más eficiente. Los más comunes se enumeran a continuación.
 
